@@ -1,113 +1,99 @@
-============================================================
+# ALGORITHMIC BENCHMARK Y BIG-O ANALYSIS
 
-ALGORITHMIC BENCHMARK Y BIG-O ANALYSIS
+Facultad de Ingenieria en Sistemas  
+Universidad Da Vinci de Guatemala  
 
-============================================================
+---
 
-Facultad de Ingenieria en Sistemas | Universidad Da Vinci de Guatemala
+## 📌 DESCRIPCION GENERAL
 
-DESCRIPCION GENERAL
+Este proyecto es una herramienta diseñada para medir y analizar el rendimiento computacional de algoritmos fundamentales.  
+A través de un motor de Benchmark, se comparan implementaciones iterativas frente a recursivas, evaluando el impacto del uso de memoria (Memory Stack) y validando experimentalmente las curvas de crecimiento de la notación Big-O.
 
-Este proyecto es una herramienta disenada para medir y analizar el rendimiento computacional de algoritmos fundamentales. A traves de un motor de Benchmark, comparamos implementaciones iterativas frente a recursivas, evaluando el impacto del uso de la memoria (Memory Stack) y validando experimentalmente las curvas de crecimiento de la notacion Big-O.
+---
 
-ESTRUCTURA DEL PROYECTO (Rutas)
+## 📂 ESTRUCTURA DEL PROYECTO
 
-Copia esta estructura para mantener el orden de tus archivos:
+Copia exactamente este bloque para que se vea alineado en GitHub:
 
+```
 ProyectoED_Demo/
-├── bin/                       # Archivos compilados (.class)
-├── src/                       # Codigo fuente del proyecto
-│   ├── algorithms/            # Implementaciones de logica
-│   │   ├── Factorial.java
-│   │   ├── Fibonacci.java
-│   │   ├── BusquedaLineal.java
-│   │   └── OrdenamientoBurbuja.java
-│   └── benchmark/             # Motor de medicion
-│       └── Main.java          # Punto de entrada principal
-├── docs/                      # Documentacion y graficas
-│   ├── Graficas_Excel.png
-│   └── Reporte_Tecnico.pdf
-└── README.md                  # Guia del repositorio
+|-- bin/                       # Archivos compilados (.class)
+|-- src/                       # Codigo fuente del proyecto
+|   |-- algorithms/            # Implementaciones de logica
+|   |   |-- Factorial.java
+|   |   |-- Fibonacci.java
+|   |   |-- BusquedaLineal.java
+|   |   `-- OrdenamientoBurbuja.java
+|   `-- benchmark/             # Motor de medicion
+|       `-- Main.java          # Punto de entrada principal
+|-- docs/                      # Documentacion y graficas
+|   |-- Graficas_Excel.png
+|   `-- Reporte_Tecnico.pdf
+`-- README.md                  # Guia del repositorio
+```
 
+---
 
-ALGORITMOS ANALIZADOS Y COMPLEJIDAD
+## 🧠 ALGORITMOS ANALIZADOS
 
-Se midieron los siguientes algoritmos segun su categoria:
+### A1 - Factorial
+**Categoria:** Aritmetico  
+**Complejidad:** O(n)
 
-A1 - Factorial
+### A2 - Fibonacci
+**Categoria:** Sucesion  
+**Complejidad:** O(n) vs O(2^n)
 
-Categoria: Aritmetico
+### A3 - Busqueda Lineal
+**Categoria:** Busqueda  
+**Complejidad:** O(n)
 
-Complejidad: O(n)
+### A4 - Ordenamiento Burbuja
+**Categoria:** Ordenacion  
+**Complejidad:** O(n^2)
 
-A2 - Fibonacci
+---
 
-Categoria: Sucesion
+## ⚙️ GUIA DE INSTALACION Y EJECUCION
 
-Complejidad: O(n) vs O(2^n)
+### 1️⃣ Clonar el repositorio
 
-A3 - Busqueda Lineal
-
-Categoria: Busqueda
-
-Complejidad: O(n)
-
-A4 - Ordenamiento Burbuja
-
-Categoria: Ordenacion
-
-Complejidad: O(n^2)
-
-TECNOLOGIAS Y REQUISITOS
-
-Lenguaje: Java 17 o superior.
-
-Entorno: Visual Studio Code / IntelliJ IDEA.
-
-Documentacion: Reporte tecnico en formato PDF.
-
-Analisis: Microsoft Excel para generacion de graficas.
-
-GUIA DE INSTALACION Y EJECUCION
-
-1. Clonar el repositorio
-
-git clone [https://github.com/CristoferPatricio/ProyectoED_Demo.git](https://github.com/CristoferPatricio/ProyectoED_Demo.git)
+```
+git clone https://github.com/CristoferPatricio/ProyectoED_Demo.git
 cd ProyectoED_Demo
+```
 
+### 2️⃣ Compilacion (CLI)
 
-2. Compilacion (CLI)
-
-Desde la terminal, usa este comando para compilar:
-
+```
 javac -d bin src/algorithms/*.java src/benchmark/*.java
+```
 
+### 3️⃣ Ejecucion
 
-3. Ejecucion del Benchmark
-
-Para correr el programa y ver los tiempos:
-
+```
 java -cp bin benchmark.Main
+```
 
+---
 
-RESULTADOS Y VISUALIZACIONES
+## 📊 RESULTADOS Y ENTREGABLES
 
-Graficas de Tendencia: Visualizacion de crecimiento cuadratico y exponencial.
+**Graficas:** Visualizacion de crecimiento cuadratico y exponencial en Excel.  
 
-Reporte Tecnico: Justificacion de resultados y analisis propio.
+**Reporte:** Documentacion tecnica detallada en PDF.  
 
-Datos Crudos: Tiempos de las 5 ejecuciones realizadas.
+**Video:** [Pega aqui tu enlace de YouTube]
 
-🎥 Video de Presentacion: [Enlace a YouTube] (Pega aqui tu link de video)
+---
 
-AUTOR
+## 👨‍💻 AUTOR
 
-Nombre: Cristofer Patricio
+**Nombre:** Cristofer Patricio  
+**Carne:** 202500553  
+**Institucion:** Universidad Da Vinci de Guatemala  
 
-Carne: 202500553
+---
 
-Carrera: Ingenieria en Sistemas
-
-Institucion: Universidad Da Vinci de Guatemala
-
-(c) 2026 Cristofer Patricio - Todos los derechos reservados.
+© 2026 Cristofer Patricio - Todos los derechos reservados.
