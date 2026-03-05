@@ -12,7 +12,7 @@ Este proyecto es una herramienta disenada para medir y analizar el rendimiento c
 
 ESTRUCTURA DEL PROYECTO (Rutas)
 
-Aqui se detalla la organizacion de las carpetas y archivos para facilitar la navegacion:
+Copia esta estructura para mantener el orden de tus archivos:
 
 ProyectoED_Demo/
 ├── bin/                       # Archivos compilados (.class)
@@ -36,19 +36,27 @@ Se midieron los siguientes algoritmos segun su categoria:
 
 A1 - Factorial
 
-Categoria: Aritmetico | Complejidad: O(n)
+Categoria: Aritmetico
+
+Complejidad: O(n)
 
 A2 - Fibonacci
 
-Categoria: Sucesion | Complejidad: O(n) vs O(2^n)
+Categoria: Sucesion
+
+Complejidad: O(n) vs O(2^n)
 
 A3 - Busqueda Lineal
 
-Categoria: Busqueda | Complejidad: O(n)
+Categoria: Busqueda
+
+Complejidad: O(n)
 
 A4 - Ordenamiento Burbuja
 
-Categoria: Ordenacion | Complejidad: O(n^2)
+Categoria: Ordenacion
+
+Complejidad: O(n^2)
 
 TECNOLOGIAS Y REQUISITOS
 
@@ -70,14 +78,14 @@ cd ProyectoED_Demo
 
 2. Compilacion (CLI)
 
-Para compilar todas las clases y generar los binarios:
+Desde la terminal, usa este comando para compilar:
 
 javac -d bin src/algorithms/*.java src/benchmark/*.java
 
 
 3. Ejecucion del Benchmark
 
-Para iniciar las pruebas de rendimiento:
+Para correr el programa y ver los tiempos:
 
 java -cp bin benchmark.Main
 
@@ -90,7 +98,7 @@ Reporte Tecnico: Justificacion de resultados y analisis propio.
 
 Datos Crudos: Tiempos de las 5 ejecuciones realizadas.
 
-Video de Presentacion: [Enlace a YouTube] (Reemplaza con tu link)
+🎥 Video de Presentacion: [Enlace a YouTube] (Pega aqui tu link de video)
 
 AUTOR
 
