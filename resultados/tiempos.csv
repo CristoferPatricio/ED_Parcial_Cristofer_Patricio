@@ -1,0 +1,13 @@
+Algoritmo,Version,n,Resultado,Tiempo_ms
+Fibonacci,Iterativo,5,5,0.003590
+Fibonacci,Iterativo,10,55,0.001510
+Fibonacci,Iterativo,15,610,0.002160
+Fibonacci,Iterativo,20,6765,0.002260
+Fibonacci,Iterativo,25,75025,0.003890
+Fibonacci,Iterativo,30,832040,0.004400
+Fibonacci,Recursivo,5,5,0.034920
+Fibonacci,Recursivo,10,55,0.038440
+Fibonacci,Recursivo,15,610,0.893370
+Fibonacci,Recursivo,20,6765,0.317570
+Fibonacci,Recursivo,25,75025,3.393220
+Fibonacci,Recursivo,30,832040,30.102650
